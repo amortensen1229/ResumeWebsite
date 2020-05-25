@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #101012;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  /*
+  background: url(portfolio1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  */
+  
+}
+
+.navbar {
+  font-family: "Lucida Console", Monaco, "monospace";
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.nav-center {
+  display: flex;
+  margin-top:15px;
+}
+
+.nav-center a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
+  transition: color 0.4s;
+  transition: border-bottom 0.2s;
+  
+}
+
+.nav-home a:hover {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+
+}
+
+.nav-about a:hover {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+}
+
+.nav-contact a:hover {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+}
+
+.nav-portfolio a {
+  color: #8e8e94;
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+.download-logo {
+  font-size: 1.5em;
+}
+
+.github-logo{
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+/*
+
+  position: absolute;
+  color: white;
+  font-size: 0.5em;
+  left: 50%;
+  top: 85%;
+}
+.resume-download i {
+  font-size: 6em;
+  height: 100px;
+  width: 100px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.github{
+  width: 34%;
+  height: 400px;
+  margin-right: 75px;
+  position: relative; 
+  text-align: center;
+}
+
+.resume {
+  width: 34%;
+  height: 400px;
+  position: relative; 
+  text-align: center;
+}
+
+
+.github-logo {
+  height: 100%;
+  width: 100%;
+  background: url(assets/github1.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+
+
+.resume-logo {
+  height: 100%;
+  width: 100%;
+  background-image: url(assets/resume1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.github-logo:hover {
+  transform: scale(1.05);
+}
+
+.resume-logo:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+.resume-link {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 4.5em;
+  font-family: "Lucida Console", Monaco, "monospace";
+  font-weight: bolder;
+}
+
+
+
+
+
+Revelant code for portfolio
+    <div class="portfolio-links">
+      <div class="github"> 
+        <a href = "https://github.com/amortensen1229">   
+        <div class="github-logo">
+        </div> 
+        </a>
+        <div class="github-link">
+        </div>
+    </div>
+
+      
+      <div class="resume">
+        <div class="resume-logo">
+
+        </div>
+        <div class="resume-link">
+          <a href = "http://www.google.com/">Resume</a>
+        </div>
+      </div>
+    </div>
+*/

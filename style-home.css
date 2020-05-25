@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  background-color:#000000;
+  /*background-color: #18181a; */
+  height: 100vh;
+  width: 100vw;
+}
+
+/*Background & formatting*/
+.splash-background {
+  background: url(assets/background3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/*Navagation Bar Style*/
+.navbar {
+  font-family: "Lucida Console", Monaco, "monospace";
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.nav-center {
+  display: flex;
+  margin-top:15px;
+  z-index: 2;
+
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s;
+  transition: border-bottom 0.2s; 
+}
+
+.nav-home {
+  margin-right: 35px;
+}
+.nav-about {
+  margin-right: 35px;
+} 
+.nav-contact {
+  margin-right: 35px;
+}
+
+.nav-home a {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+}
+
+.nav-about a:hover {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+}
+
+.nav-contact a:hover {
+  color: #8e8e94;
+  /*border-bottom: 2px solid #8e8e94;*/
+}
+
+.nav-portfolio a:hover {
+  color: #8e8e94;
+}
+
+/*Center-Piece Style*/
+.center-piece {
+  color: white;
+  font-family: "Lucida Console", Monaco, "monospace";
+  text-align: center;
+  margin-top: 36.5%;
+}
+.name {
+  font-size: 2.5em;
+}
+
+.discription {
+  font-size: 1.8em;
+}
+
+
+/*slider for js fade in*/
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  z-index: 3;
+}
+
+
+/*Social Bar*/
+.social-bar {
+  position: absolute;
+  top: 93%;
+  left: 93%;
+  display: flex;
+  z-index: 2;
+}
+.socail-bar i {
+  font-size: 3em;
+}
+
+.linkedin-logo {
+ margin-right: 5px;
+}
+
+.linkedin-logo i {
+  font-size: 2em;
+}
+
+.github-logo i {
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
